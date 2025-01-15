@@ -2,38 +2,137 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of a loop wiring diagram in an automation project?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+         "a": "To show the programming logic of the PLC",
+        "b": "To display the electrical connections of the PLC",
+        "c": "To illustrate the pneumatic connections of the system",
+        "d": "To highlight the mechanical components of the system"
+		
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the term for the process of assigning a unique address to each device in a PLC-based system?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Tagging",
+        "b": "Addressing",
+        "c": "Wiring",
+        "d": "Programming"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In a loop wiring diagram, what does the symbol 'XIC' typically represent? ",
+      "answers": {
+        "a": "Examine If Closed",
+        "b": "Examine If Open",
+        "c": "Examine If Contact",
+        "d": "Examine If Circuit"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the purpose of a terminator in a PLC-based system?",
+      "answers": {
+        "a": "To connect devices to the PLC",
+        "b": "To disconnect devices from the PLC",
+        "c": "To terminate the signal transmission",
+        "d": "To amplify the signal strength"
+      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the benefit of using a standardized wiring diagram format?",
+      "answers": {
+        "a": "It increases the complexity of the diagram",
+        "b": "It reduces the readability of the diagram",
+        "c": "It improves the consistency and clarity of the diagram",
+        "d": "It decreases the accuracy of the diagram"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "What is the term for the process of checking the loop wiring diagram for errors and inconsistencies?",
+      "answers": {
+        "a": "Verification",
+        "b": "Validation",
+        "c": "Testing",
+        "d": "Debugging"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	
+  {
+      "question": "In a PLC-based system, what is the purpose of a loop check?",
+      "answers": {
+        "a": "To test the programming logic",
+        "b": "To verify the electrical connections",
+        "c": "To check the pneumatic connections",
+        "d": "To inspect the mechanical components"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "What is the advantage of using a loop wiring diagram in an automation project?",
+      "answers": {
+        "a": "It reduces the complexity of the system",
+        "b": "It increases the cost of the project",
+        "c": "It improves the reliability and maintainability of the system",
+        "d": "It decreases the efficiency of the system"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "Who is typically responsible for reviewing and approving the loop wiring diagram in an automation project? ",
+      "answers": {
+        "a": "PLC programmer",
+        "b": "Electrical engineer",
+        "c": "Project manager",
+        "d": "Quality assurance engineer"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "What is the final step in the development of a loop wiring diagram?",
+      "answers": {
+        "a": "Verification",
+        "b": "Validation",
+        "c": "Testing",
+        "d": "Documentation"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
+  
+  
   ]
 }
