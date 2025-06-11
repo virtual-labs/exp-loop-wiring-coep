@@ -1,0 +1,203 @@
+#div1 {
+  width: 600px;
+  height: 670px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+#imgb1{
+	background-image: url("images/b1.jpg");
+	 background-color: #cccccc;
+}
+
+ #questionDiv{}
+.QueHead{font-size: 18px;
+      font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333;
+    margin: 5px 0;
+    border-radius: 10px;
+    padding: 10px 0;
+    font-family: Cambria, Georgia, serif;
+	}
+
+#questionDiv .queTitle {
+	padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#testSubmit:hover{
+	background-color: #05aaa5
+}
+
+#testSubmit:active {
+	background-color: #05aaa5;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+footer {
+	background: rgb(125,176,169);
+background: linear-gradient(90deg, rgba(125,176,169,1) 0%, rgba(78,109,114,1) 31%, rgba(33,44,62,1) 100%);
+	padding: 2px 10px;
+	border-top: 5px solid #2a333c;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+/* Custom Popup Box */
+.custom-popup {
+    border-radius: 15px !important; /* Rounded corners */
+    background-color: white !important; /* Dark mode background */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5) !important;
+    width: 30%;
+    height: 70%;
+    
+}
+
+/* Custom Title */
+.custom-title {
+    font-size: 24px !important;
+    font-weight: bold !important;
+    color: darkslategrey !important; /* Gold color */
+    font-family: 'Arial', sans-serif !important;
+}
+
+/* Custom Confirm Button */
+.custom-confirm-button {
+    background-color: #28a745 !important; /* Green */
+    color: white !important;
+    font-size: 18px !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+.custom-confirm-button:hover {
+    background-color: #218838 !important; /* Darker green */
+}
+
+/* Custom Cancel Button */
+.custom-cancel-button {
+    background-color: #dc3545 !important; /* Red */
+    color: white !important;
+    font-size: 18px !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    border: none !important;
+}
+
+.custom-cancel-button:hover {
+    background-color: #c82333 !important; /* Darker red */
+}
+
+.custom-icon{
+	font-size: 13px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .custom-popup {
+        width: 90% !important; /* Make it full width on small screens */
+    }
+}
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color:rgba(125, 176, 169, 1);
+    font-size:18px;
+}
+  #srNo{
+	  width:10%;
+  }
+  #material{
+	  width:60%;
+  }
+  #value{
+	  width:30%;
+  }
+ input {
+            width: 100%;
+            padding: 5px;
+        }
+option, select{
+	width:80%;
+	height: 30px;
+	background-color: #425c642e;
+}  
+  
+#startBtn, #getValues, #validateTable, #resultBtn, #startBtn1{
+	   border-color: teal;
+    background-color: teal;
+  }
+  
+  .timerStyle {
+    background-color: #42494f;
+    color: #e8ac6e;
+    font-weight: 700;
+    font-family: 'digital-clock-font';
+    letter-spacing: 1px;
+}
+.btn1 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7px;
+    float: right;
+    margin-bottom: 10px;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+}
+
+.titlePart {
+    font-size: larger;
+    font-weight: 700;
+    background-color: #244747;
+    margin: 5px;
+    padding: 15px;
+    color: #fff;
+    border-style: solid;
+    border-color: #7baea7;
+}
+
+.card {
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .instruction-box {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px;
+        }
+p {
+    margin: 0 0 0px;
+}
+
+/*////////////*/
+
+.custom-popup{
+	height: max-content;
+}
+.swal2-html-container{
+	height: max-content;
+}
