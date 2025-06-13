@@ -14,10 +14,10 @@ function HookUp32(){
 			<div class="heading" style="background-color:#425c64; border-radius: 25px; margin-top: 10px;">
 			   <p class="heading-text text-center" style="color: white; font-size: 22px; font-weight: 800; padding: 0px;">INSTRUMENT SYMBOLS</p>
 		    </div>
+		    <button class="btn btn-primary m-2 btn1 button1" id="Procesure">Procedure</button>
               <div class="container-fluid mt-3" style="overflow-y: scroll; height:500px">
                 <div class="row">
 
-                
                    <div class="col-4">
                         <div class="component" draggable="true" data-type="PSL">
                             <img src="images/LSH.png" alt="LSH" draggable="false">
@@ -299,6 +299,31 @@ function HookUp32(){
 	`;
 	
 	$("#main-div").html(htm);
+	
+document.getElementById('Procesure').addEventListener('click', function () {
+  Swal.fire({
+    title: 'Procedure',
+    html: `
+      <ol class="procedure-list">
+        <li>Select the desired <strong>Plant</strong> from the dropdown menu.</li>
+        <li>Choose the <strong>Module type</strong> (DI, DO, AI, or AO). If DI or DO, specify <em>Sinking</em> or <em>Sourcing</em>.</li>
+        <li>Drag and drop the components from the <strong>left panel</strong> to the <strong>right blocks</strong>.</li>
+        <li>Select any port as a <strong>starting point</strong>, then click another port to connect.</li>
+        <li>Right-click on any component or connection and choose <strong>"Delete"</strong>.</li>
+        <li>Click <strong>"Validate"</strong> after making connections.</li>
+        <li>Repeat for all modules of the selected Plant.</li>
+        <li>Click on <strong>"Result"</strong> for performance assessment.</li>
+      </ol>
+    `,
+    customClass: {
+      popup: 'custom-popup',
+      title: 'custom-title',
+      htmlContainer: 'custom-html',
+      confirmButton: 'custom-button'
+    },
+    confirmButtonText: 'Got it!'
+  });
+});
 
 }
 
