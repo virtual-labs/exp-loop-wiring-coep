@@ -72,9 +72,9 @@
 
 #diagram {
     flex-grow: 1;
-    width:100%;
+    width:95%;
     position: relative;
-    height: 100vh;
+    height: 95vh;
 }
 
 #startBtn{
@@ -118,44 +118,47 @@ h5{
 		<span id="colgName">COEP TECHNOLOGICAL UNIVERSITY PUNE</span>			
 </header>
 
-<div  class="col-sm-12" style="display:flex;"> 
-
- <label class="row" style="margin-top:10px; margin-left:5px; width:15%;" id="plantSelectLabel">
+<div  class="row" > 
+<div class="col-3" style="display:flex; border:none;">
+ <label class="row" style="margin-top:10px; margin-left:5px; width:50%;" id="plantSelectLabel">
 	  Select Plant:
 	</label>
-	<select name="plants" id="plantSelect" style="margin-top:7px; margin-bottom:7px;">
+	<select name="plants" id="plantSelect" style="margin-top:7px; margin-bottom:7px; width:50%">
 	  <option value="0">--Select--</option>
 	  <option value="1">Boiler</option>
 	  <option value="2">Spray Dryer</option>
 	   <option value="3">Distillation</option>
 	</select>
-
-  <label class="row" style="margin-top:10px;margin-left:5px;width:15%;" id = "hookUpSelectLabel" hidden>Select the Appropriate:</label>
-  <select name="cars" id="hookUpSelect" style="margin-top:7px; margin-bottom:7px;"  hidden>
+</div>
+<div class="col-3" style="display:flex; border:none;">
+  <label class="row" style="margin-top:10px;margin-left:5px;width:60%;" id = "hookUpSelectLabel" hidden>Select the Appropriate:</label>
+  <select name="cars" id="hookUpSelect" style="margin-top:7px; margin-bottom:7px; width:40%;"  hidden>
      <option value="0" >--Select--</option>
     <option value="DI" >DI</option>
     <option value="DO">DO</option>
     <option value="AI">AI</option>
     <option value="AO">AO</option>
   </select>
-    
-    <label class="row" style="margin-top:10px;margin-left:5px;width:15%;" id = "subhookUpSelectLabel" hidden>Select:</label> 
-     <select name="cars" id="subhookUpSelect" style="margin-top:7px; margin-bottom:7px;" hidden>
+    </div>
+	<div class="col-3" style="display:flex; border:none;">
+    <label class="row" style="margin-top:10px;margin-left:5px;width:50%" id = "subhookUpSelectLabel" hidden>Select:</label> 
+     <select name="cars" id="subhookUpSelect" style="margin-top:7px; margin-bottom:7px; width:50%" hidden>
      <option value="0" >--Select--</option>
     <option value="Sinking" >Sinking</option>
     <option value="Sourcing">Sourcing</option>
    
   </select>
   
-      <label class="row" style="margin-top:10px;margin-left:5px;width:15%;" id = "subhookUpSelectLabel1" hidden>Select:</label> 
-     <select name="cars" id="subhookUpSelect1" style="margin-top:7px; margin-bottom:7px;" hidden>
+      <label class="row" style="margin-top:10px;margin-left:5px;width:50%" id = "subhookUpSelectLabel1" hidden>Select:</label> 
+     <select name="cars" id="subhookUpSelect1" style="margin-top:7px; margin-bottom:7px; width:50%" hidden>
      <option value="0" >--Select--</option>
     <option value="Sinking" >Sinking</option>
     <option value="Sourcing">Sourcing</option>
    
   </select>
-  
+  </div>
      
+	 <div class="col-3" style=" border:none;">
 
 		 <h5 id="counter" class=" btn1 timerStyle" hidden>00:00:00</h5>
 		   <button type="button" class="btn btn-danger btn1 button1"  id="report" hidden>Download report</button> 
@@ -166,7 +169,8 @@ h5{
            <button id="startBtnAI" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
            <button id="startBtnAO" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
            <button id="result" class="btn btn-primary m-2 btn1 button1" hidden>RESULT</button>
-	     </div>
+		   </div> 
+</div>
 
 
 <div class="container-fluid" style="margin-top:5px;" id="main-div">
@@ -299,21 +303,21 @@ Copyrights &copy; COEP - Virtual Lab
 	   console.log($("#plantSelect").val());
 	   
 	   if($("#plantSelect").val()==1){
-		   $("#plantSelectLabel").prop("hidden",true);
-		   $("#plantSelect").prop("hidden",true);
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
 		   
 		   boiler();
 	   }
 	   if($("#plantSelect").val()==2){
-		   $("#plantSelectLabel").prop("hidden",true);
-		   $("#plantSelect").prop("hidden",true);
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
 		   
 		   sprayDryer();
 		
 	   }
 	   if($("#plantSelect").val()==3){
-		   $("#plantSelectLabel").prop("hidden",true);
-		   $("#plantSelect").prop("hidden",true);
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
 		   
 		   distillation();
 		
