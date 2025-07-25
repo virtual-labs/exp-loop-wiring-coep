@@ -29,9 +29,9 @@ function Diagram4() {
     
      paper.image("images/f0.png", x + 229.5, y - 74, 40, 30);
     paper.image("images/fuse.png", x + 200, y - 50, 100, 250);
-    paper.image("images/posNeg.png", x + 278, y - 115, 40, 30);
+    paper.image("images/posNeg.png", x + 298, y - 92, 40, 30);
     
-    paper.image("images/labelPowerSupply.png", x + 320, y - 113, 130, 30);
+    paper.image("images/labelPowerSupply.png", x + 340, y - 90, 130, 30);
     paper.image("images/DOLabel.png", x-30, y - 80, 23, 20);
     
 //    paper.text(x+396,y-100," : 24V DC Power Supply").attr({'stroke' : '#5c696e' , "font-size":"14px"});
