@@ -819,10 +819,10 @@ const i7p = addStaticPort(paper, x + 226.2, y+180, "bottom", "static-17", "I7P",
         
          $("#diagram").html("");
          resultJson.demo2 = mimicCount2;
-        console.log(resultJson);
+        //console.log(resultJson);
         
         timerMasterJson.demo2 = $("#counter").text();
-				console.log(timerMasterJson);
+				//console.log(timerMasterJson);
 				seconds = 0;
 				updateCounter();
 	  

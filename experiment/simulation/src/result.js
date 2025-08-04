@@ -1,13 +1,16 @@
 
 function result(){
-	console.log(resultJson);
+	//console.log(resultJson);
+	const now = new Date();
+    const formatted = now.toLocaleString();
+	timerMasterJson.mimic=$("#counter").text();
 	$("#result").prop("hidden",true);
 	
 	$("#hookUpSelectLabel").prop("hidden",true);
 	$("#hookUpSelect").prop("hidden",true);
 	
 timerMasterJson.result=$("#counter").text();
-	console.log(timerMasterJson);
+	//console.log(timerMasterJson);
 	seconds = 0;
 	updateCounter();
 	$("#startBtn,#getValues,#counter").prop("hidden",true);
@@ -15,7 +18,7 @@ timerMasterJson.result=$("#counter").text();
 	$("#Header").html("<center><span >WIRING DIAGRAM</span></center>");
 	
 	htm=''
-	+'<div class="container-fluid" style="margin-top:50px;">'
+	+'<div class="container-fluid">'
 	  
 	+' <!-- Title -->'
  
@@ -25,7 +28,7 @@ timerMasterJson.result=$("#counter").text();
 	+'<div style="display: flex; align-items: center; gap: 10px; white-space: nowrap;">'
 	+'<span style="color: white;font-weight: bold; font-size: 22px;">Enter Name:</span>'
 	+'<input type="text" id="nameInput" style="color: #000; padding: 5px; max-width: 200px;">'
-	+'<label id="dateTime" style="color:#fff;"></label>'
+	+'<label id="dateTime1" style="color:#fff;">'+formatted+'</label>'
 	
 	+'  </div>'
 	+'</div>'
