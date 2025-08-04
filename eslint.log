@@ -1,0 +1,1322 @@
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/lib/jquery.js
+  2:58     warning  'module' is not defined                                                    no-undef
+  2:73     warning  'module' is not defined                                                    no-undef
+  2:6324   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6580   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7011   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7270   warning  Empty block statement                                                      no-empty
+  2:7839   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9709   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11311  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11925  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12343  warning  Empty block statement                                                      no-empty
+  2:12906  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13218  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15046  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15317  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15517  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15893  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16598  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18982  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19073  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19133  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20435  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21049  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21160  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23420  warning  Unnecessary escape character: \[                                           no-useless-escape
+  2:23422  warning  Unnecessary escape character: \.                                           no-useless-escape
+  2:30761  warning  Empty block statement                                                      no-empty
+  2:31981  warning  Empty block statement                                                      no-empty
+  3:7811   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:7951   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  3:8441   warning  Empty block statement                                                      no-empty
+  3:11852  warning  Empty block statement                                                      no-empty
+  3:14493  warning  Empty block statement                                                      no-empty
+  3:24051  warning  Empty block statement                                                      no-empty
+  3:26100  warning  Move function declaration to function body root                            no-inner-declarations
+  3:30714  warning  Empty block statement                                                      no-empty
+  4:2546   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:5062   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:11701  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:13447  warning  Empty block statement                                                      no-empty
+  4:14747  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:14827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15164  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15244  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15659  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:15915  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:16492  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17365  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17377  warning  Unnecessary escape character: \/                                           no-useless-escape
+  4:17610  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:20109  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:22009  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  4:27128  warning  Empty block statement                                                      no-empty
+  4:27205  warning  Empty block statement                                                      no-empty
+  5:812    warning  'define' is not defined                                                    no-undef
+  5:824    warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/lib/jquery.min.js
+  2:71     warning  'module' is not defined                                                    no-undef
+  2:86     warning  'module' is not defined                                                    no-undef
+  2:5433   warning  Unexpected control character(s) in regular expression: \x1f, \x1f          no-control-regex
+  2:5916   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6170   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:6614   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:7404   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9497   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:9807   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:11608  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12183  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:12221  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13234  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:13546  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15374  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15645  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:15843  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:16217  warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+  2:16907  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18727  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18827  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:18887  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:19071  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:20240  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21514  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:21625  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:23791  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:33395  warning  Empty block statement                                                      no-empty
+  2:37269  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:38490  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:38606  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:39234  warning  Empty block statement                                                      no-empty
+  2:46727  warning  Unnecessary escape character: \/                                           no-useless-escape
+  2:49033  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:50593  warning  Empty block statement                                                      no-empty
+  2:58406  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:59575  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:65215  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:66958  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67024  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67328  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67394  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:67801  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:68078  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:73449  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75043  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:75823  warning  'r.href' is assigned to itself                                             no-self-assign
+  2:80414  warning  Empty block statement                                                      no-empty
+  2:83525  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  2:87869  warning  'define' is not defined                                                    no-undef
+  2:87881  warning  'define' is not defined                                                    no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/lib/raphael.js
+  5800:60  error  Parsing error: Deleting local variable in strict mode
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/lib/raphael.min.js
+  1:66     warning  'module' is not defined                                                                                                                          no-undef
+  1:112    warning  'define' is not defined                                                                                                                          no-undef
+  1:123    warning  'define' is not defined                                                                                                                          no-undef
+  1:161    warning  'exports' is not defined                                                                                                                         no-undef
+  1:1566   warning  'DocumentTouch' is not defined                                                                                                                   no-undef
+  1:2001   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2017   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2033   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2052   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2081   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2110   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2126   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2145   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2174   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2203   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2219   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2238   warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:2346   warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:3257   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:3582   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d  no-control-regex
+  1:3756   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4055   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d  no-control-regex
+  1:4222   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4521   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:4539   warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:4856   warning  Unexpected control character(s) in regular expression: \x09, \x0a, \x0b, \x0c, \x0d, \x09, \x0a, \x0b, \x0c, \x0d                                no-control-regex
+  1:5154   warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:7857   warning  'ActiveXObject' is not defined                                                                                                                   no-undef
+  1:7931   warning  'createPopup' is not defined                                                                                                                     no-undef
+  1:19015  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:20113  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:20421  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:24342  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:35757  warning  't' is defined but never used                                                                                                                    no-unused-vars
+  1:49075  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:50549  warning  'i' is defined but never used                                                                                                                    no-unused-vars
+  1:50598  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:52666  warning  Unnecessary escape character: \}                                                                                                                 no-useless-escape
+  1:53074  warning  Empty block statement                                                                                                                            no-empty
+  1:53754  warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:60967  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:72245  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:72515  warning  Unnecessary escape character: \(                                                                                                                 no-useless-escape
+  1:72517  warning  Unnecessary escape character: \)                                                                                                                 no-useless-escape
+  1:75570  warning  Expected a conditional expression and instead saw an assignment                                                                                  no-cond-assign
+  1:77369  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77405  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77447  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77582  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77619  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:77661  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79325  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79783  warning  Expected a 'break' statement before 'case'                                                                                                       no-fallthrough
+  1:79973  warning  Expected a 'break' statement before 'default'                                                                                                    no-fallthrough
+  1:80032  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:89485  warning  'r' is defined but never used                                                                                                                    no-unused-vars
+  1:89543  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:89545  warning  Unnecessary escape character: \/                                                                                                                 no-useless-escape
+  1:90733  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:90735  warning  Unnecessary escape character: \^                                                                                                                 no-useless-escape
+  1:90739  warning  Unnecessary escape character: \[                                                                                                                 no-useless-escape
+  1:90741  warning  Unnecessary escape character: \-                                                                                                                 no-useless-escape
+  1:90780  warning  Unnecessary escape character: \.                                                                                                                 no-useless-escape
+  1:90782  warning  Unnecessary escape character: \/                                                                                                                 no-useless-escape
+  1:91000  warning  Do not access Object.prototype method 'hasOwnProperty' from target object                                                                        no-prototype-builtins
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/AIBoiler.js
+    3:10  warning  'aiBoiler' is defined but never used  no-unused-vars
+    4:5   warning  '$' is not defined                    no-undef
+    5:5   warning  '$' is not defined                    no-undef
+    7:5   warning  '$' is not defined                    no-undef
+    9:5   warning  '$' is not defined                    no-undef
+   10:5   warning  '$' is not defined                    no-undef
+   11:5   warning  'seconds' is not defined              no-undef
+   12:5   warning  'finCnt' is not defined               no-undef
+   18:19  warning  'Raphael' is not defined              no-undef
+  414:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  420:13  warning  'Swal' is not defined                 no-undef
+  539:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  578:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  592:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  606:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  710:9   warning  'Swal' is not defined                 no-undef
+  723:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  723:8   warning  'finCnt' is not defined               no-undef
+  724:4   warning  '$' is not defined                    no-undef
+  725:4   warning  '$' is not defined                    no-undef
+  726:4   warning  '$' is not defined                    no-undef
+  727:3   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  727:5   warning  '$' is not defined                    no-undef
+  730:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  730:4   warning  '$' is not defined                    no-undef
+  731:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  731:4   warning  '$' is not defined                    no-undef
+  732:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  733:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  733:4   warning  '$' is not defined                    no-undef
+  734:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  735:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  738:9   warning  'timerMasterJson' is not defined      no-undef
+  738:36  warning  '$' is not defined                    no-undef
+  739:17  warning  'timerMasterJson' is not defined      no-undef
+  740:5   warning  'seconds' is not defined              no-undef
+  741:5   warning  'updateCounter' is not defined        no-undef
+  743:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  746:11  warning  '$' is not defined                    no-undef
+  747:4   warning  '$' is not defined                    no-undef
+  749:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  750:9   warning  'Swal' is not defined                 no-undef
+  762:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  763:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  763:11  warning  'Swal' is not defined                 no-undef
+  779:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/AIDist.js
+    5:10  warning  'aiDist' is defined but never used  no-unused-vars
+    6:5   warning  '$' is not defined                  no-undef
+    7:5   warning  '$' is not defined                  no-undef
+    9:5   warning  '$' is not defined                  no-undef
+   11:5   warning  '$' is not defined                  no-undef
+   12:5   warning  '$' is not defined                  no-undef
+   13:5   warning  'seconds' is not defined            no-undef
+   14:5   warning  'finCnt' is not defined             no-undef
+   20:19  warning  'Raphael' is not defined            no-undef
+  416:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  422:13  warning  'Swal' is not defined               no-undef
+  541:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  580:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  594:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  608:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  712:9   warning  'Swal' is not defined               no-undef
+  725:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  725:8   warning  'finCnt' is not defined             no-undef
+  726:4   warning  '$' is not defined                  no-undef
+  727:4   warning  '$' is not defined                  no-undef
+  728:4   warning  '$' is not defined                  no-undef
+  729:4   warning  '$' is not defined                  no-undef
+  732:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  732:4   warning  '$' is not defined                  no-undef
+  733:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  733:4   warning  '$' is not defined                  no-undef
+  734:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  734:3   warning  '$' is not defined                  no-undef
+  735:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  735:4   warning  '$' is not defined                  no-undef
+  736:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  737:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  740:36  warning  '$' is not defined                  no-undef
+  742:3   warning  'seconds' is not defined            no-undef
+  743:3   warning  'updateCounter' is not defined      no-undef
+  744:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  745:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  748:11  warning  '$' is not defined                  no-undef
+  751:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  752:9   warning  'Swal' is not defined               no-undef
+  764:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  765:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  765:11  warning  'Swal' is not defined               no-undef
+  781:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/AOBoiler.js
+    3:10  warning  'aoBoiler' is defined but never used  no-unused-vars
+    4:5   warning  '$' is not defined                    no-undef
+    5:5   warning  '$' is not defined                    no-undef
+    7:5   warning  '$' is not defined                    no-undef
+    9:5   warning  '$' is not defined                    no-undef
+   10:5   warning  '$' is not defined                    no-undef
+   11:5   warning  'seconds' is not defined              no-undef
+   12:5   warning  'finCnt' is not defined               no-undef
+   16:19  warning  'Raphael' is not defined              no-undef
+  415:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  421:13  warning  'Swal' is not defined                 no-undef
+  607:9   warning  'Swal' is not defined                 no-undef
+  619:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  619:4   warning  '$' is not defined                    no-undef
+  620:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  620:4   warning  '$' is not defined                    no-undef
+  621:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  622:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  622:4   warning  '$' is not defined                    no-undef
+  623:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  624:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  627:11  warning  '$' is not defined                    no-undef
+  631:9   warning  'timerMasterJson' is not defined      no-undef
+  631:36  warning  '$' is not defined                    no-undef
+  632:17  warning  'timerMasterJson' is not defined      no-undef
+  633:5   warning  'seconds' is not defined              no-undef
+  634:5   warning  'updateCounter' is not defined        no-undef
+  635:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  636:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  636:8   warning  'finCnt' is not defined               no-undef
+  637:4   warning  '$' is not defined                    no-undef
+  638:4   warning  '$' is not defined                    no-undef
+  639:4   warning  '$' is not defined                    no-undef
+  640:4   warning  '$' is not defined                    no-undef
+  642:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  642:5   warning  '$' is not defined                    no-undef
+  645:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  646:9   warning  'Swal' is not defined                 no-undef
+  658:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  659:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+  659:11  warning  'Swal' is not defined                 no-undef
+  675:1   warning  Mixed spaces and tabs                 no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/bootstrap.min.js
+  6:71     warning  'exports' is not defined       no-undef
+  6:79     warning  'require' is not defined       no-undef
+  6:97     warning  'require' is not defined       no-undef
+  6:146    warning  'define' is not defined        no-undef
+  6:157    warning  'define' is not defined        no-undef
+  6:657    warning  'r' is a function              no-func-assign
+  6:38683  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/demo.js
+    5:10  warning  'Diagram2' is defined but never used                       no-unused-vars
+    6:5   warning  '$' is not defined                                         no-undef
+    7:5   warning  '$' is not defined                                         no-undef
+    9:5   warning  '$' is not defined                                         no-undef
+   10:5   warning  '$' is not defined                                         no-undef
+   11:5   warning  'seconds' is not defined                                   no-undef
+   13:5   warning  'diCnt' is not defined                                     no-undef
+   14:5   warning  'finCnt' is not defined                                    no-undef
+   19:19  warning  'Raphael' is not defined                                   no-undef
+  269:7   warning  'isBidirectionalMatch' is assigned a value but never used  no-unused-vars
+  467:14  warning  'getDropZone' is defined but never used                    no-unused-vars
+  606:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  612:13  warning  'Swal' is not defined                                      no-undef
+  671:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  717:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  863:10  warning  'Swal' is not defined                                      no-undef
+  876:9   warning  '$' is not defined                                         no-undef
+  879:9   warning  '$' is not defined                                         no-undef
+  884:32  warning  '$' is not defined                                         no-undef
+  886:3   warning  'seconds' is not defined                                   no-undef
+  887:3   warning  'updateCounter' is not defined                             no-undef
+  888:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  889:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  892:11  warning  '$' is not defined                                         no-undef
+  894:12  warning  'finCnt' is not defined                                    no-undef
+  894:25  warning  'diCnt' is not defined                                     no-undef
+  895:4   warning  '$' is not defined                                         no-undef
+  897:4   warning  '$' is not defined                                         no-undef
+  898:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  898:4   warning  '$' is not defined                                         no-undef
+  900:9   warning  '$' is not defined                                         no-undef
+  901:9   warning  '$' is not defined                                         no-undef
+  902:9   warning  '$' is not defined                                         no-undef
+  905:9   warning  '$' is not defined                                         no-undef
+  906:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  906:7   warning  'diCnt' is not defined                                     no-undef
+  907:3   warning  '$' is not defined                                         no-undef
+  908:3   warning  '$' is not defined                                         no-undef
+  912:3   warning  '$' is not defined                                         no-undef
+  913:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  913:7   warning  '$' is not defined                                         no-undef
+  914:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  914:4   warning  '$' is not defined                                         no-undef
+  915:9   warning  '$' is not defined                                         no-undef
+  916:9   warning  '$' is not defined                                         no-undef
+  918:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  920:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  922:10  warning  'Swal' is not defined                                      no-undef
+  935:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  937:10  warning  'Swal' is not defined                                      no-undef
+  955:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/demo1.js
+    3:11  warning  'Diagram1' is defined but never used     no-unused-vars
+    4:5   warning  '$' is not defined                       no-undef
+    5:5   warning  '$' is not defined                       no-undef
+    7:5   warning  '$' is not defined                       no-undef
+    8:5   warning  '$' is not defined                       no-undef
+    9:5   warning  'seconds' is not defined                 no-undef
+   10:5   warning  'doCnt' is not defined                   no-undef
+   11:5   warning  'finCnt' is not defined                  no-undef
+   15:19  warning  'Raphael' is not defined                 no-undef
+  461:14  warning  'getDropZone' is defined but never used  no-unused-vars
+  602:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  608:13  warning  'Swal' is not defined                    no-undef
+  667:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  715:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  716:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  860:9   warning  'Swal' is not defined                    no-undef
+  873:7   warning  '$' is not defined                       no-undef
+  874:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  877:9   warning  'timerMasterJson' is not defined         no-undef
+  877:33  warning  '$' is not defined                       no-undef
+  878:17  warning  'timerMasterJson' is not defined         no-undef
+  879:5   warning  'seconds' is not defined                 no-undef
+  880:5   warning  'updateCounter' is not defined           no-undef
+  881:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  884:11  warning  '$' is not defined                       no-undef
+  886:10  warning  'finCnt' is not defined                  no-undef
+  886:23  warning  'doCnt' is not defined                   no-undef
+  887:4   warning  '$' is not defined                       no-undef
+  889:4   warning  '$' is not defined                       no-undef
+  890:2   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  890:4   warning  '$' is not defined                       no-undef
+  892:9   warning  '$' is not defined                       no-undef
+  893:9   warning  '$' is not defined                       no-undef
+  894:9   warning  '$' is not defined                       no-undef
+  898:7   warning  '$' is not defined                       no-undef
+  899:8   warning  '$' is not defined                       no-undef
+  901:13  warning  'doCnt' is not defined                   no-undef
+  902:13  warning  '$' is not defined                       no-undef
+  903:13  warning  '$' is not defined                       no-undef
+  905:13  warning  '$' is not defined                       no-undef
+  906:13  warning  '$' is not defined                       no-undef
+  907:13  warning  '$' is not defined                       no-undef
+  912:13  warning  'Swal' is not defined                    no-undef
+  925:13  warning  'Swal' is not defined                    no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/demo2.js
+    4:10  warning  'Diagram4' is defined but never used                   no-unused-vars
+    5:5   warning  '$' is not defined                                     no-undef
+    6:5   warning  '$' is not defined                                     no-undef
+    8:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  'seconds' is not defined                               no-undef
+   12:5   warning  'doCnt' is not defined                                 no-undef
+   16:19  warning  'Raphael' is not defined                               no-undef
+  411:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  555:14  warning  'Swal' is not defined                                  no-undef
+  653:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  734:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  748:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  749:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  805:11  warning  'Swal' is not defined                                  no-undef
+  818:9   warning  '$' is not defined                                     no-undef
+  820:10  warning  '$' is not defined                                     no-undef
+  824:9   warning  'timerMasterJson' is not defined                       no-undef
+  824:33  warning  '$' is not defined                                     no-undef
+  826:5   warning  'seconds' is not defined                               no-undef
+  827:5   warning  'updateCounter' is not defined                         no-undef
+  828:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  829:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  832:11  warning  '$' is not defined                                     no-undef
+  835:12  warning  'finCnt' is not defined                                no-undef
+  835:25  warning  'doCnt' is not defined                                 no-undef
+  836:4   warning  '$' is not defined                                     no-undef
+  838:4   warning  '$' is not defined                                     no-undef
+  839:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  839:4   warning  '$' is not defined                                     no-undef
+  841:9   warning  '$' is not defined                                     no-undef
+  842:9   warning  '$' is not defined                                     no-undef
+  843:9   warning  '$' is not defined                                     no-undef
+  846:9   warning  '$' is not defined                                     no-undef
+  847:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  847:7   warning  'doCnt' is not defined                                 no-undef
+  849:3   warning  '$' is not defined                                     no-undef
+  850:3   warning  '$' is not defined                                     no-undef
+  852:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  852:4   warning  '$' is not defined                                     no-undef
+  853:9   warning  '$' is not defined                                     no-undef
+  854:9   warning  '$' is not defined                                     no-undef
+  857:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  858:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  860:11  warning  'Swal' is not defined                                  no-undef
+  873:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  876:10  warning  'Swal' is not defined                                  no-undef
+  894:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/demo3.js
+    4:10  warning  'Diagram3' is defined but never used                   no-unused-vars
+    5:5   warning  '$' is not defined                                     no-undef
+    6:5   warning  '$' is not defined                                     no-undef
+    8:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  'seconds' is not defined                               no-undef
+   12:5   warning  'diCnt' is not defined                                 no-undef
+   17:19  warning  'Raphael' is not defined                               no-undef
+  424:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  554:14  warning  'Swal' is not defined                                  no-undef
+  652:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  653:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  744:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  758:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  759:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  815:11  warning  'Swal' is not defined                                  no-undef
+  828:9   warning  '$' is not defined                                     no-undef
+  830:10  warning  '$' is not defined                                     no-undef
+  831:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  834:9   warning  'timerMasterJson' is not defined                       no-undef
+  834:33  warning  '$' is not defined                                     no-undef
+  835:17  warning  'timerMasterJson' is not defined                       no-undef
+  836:5   warning  'seconds' is not defined                               no-undef
+  837:5   warning  'updateCounter' is not defined                         no-undef
+  838:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  839:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  842:11  warning  '$' is not defined                                     no-undef
+  844:12  warning  'finCnt' is not defined                                no-undef
+  844:25  warning  'diCnt' is not defined                                 no-undef
+  845:4   warning  '$' is not defined                                     no-undef
+  847:4   warning  '$' is not defined                                     no-undef
+  848:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  848:4   warning  '$' is not defined                                     no-undef
+  850:9   warning  '$' is not defined                                     no-undef
+  851:9   warning  '$' is not defined                                     no-undef
+  852:9   warning  '$' is not defined                                     no-undef
+  855:7   warning  '$' is not defined                                     no-undef
+  856:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  856:7   warning  'diCnt' is not defined                                 no-undef
+  858:3   warning  '$' is not defined                                     no-undef
+  859:3   warning  '$' is not defined                                     no-undef
+  864:3   warning  '$' is not defined                                     no-undef
+  865:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  865:7   warning  '$' is not defined                                     no-undef
+  866:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  866:4   warning  '$' is not defined                                     no-undef
+  867:9   warning  '$' is not defined                                     no-undef
+  868:9   warning  '$' is not defined                                     no-undef
+  871:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  872:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  874:11  warning  'Swal' is not defined                                  no-undef
+  887:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  890:10  warning  'Swal' is not defined                                  no-undef
+  908:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/demoPorts.js
+    1:10  warning  'Diagram' is defined but never used  no-unused-vars
+    2:5   warning  '$' is not defined                   no-undef
+    3:5   warning  '$' is not defined                   no-undef
+    8:19  warning  'Raphael' is not defined             no-undef
+  118:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  128:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  129:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  131:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  132:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  134:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  135:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  139:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distAO.js
+    5:10  warning  'aoDist' is defined but never used  no-unused-vars
+    6:5   warning  '$' is not defined                  no-undef
+    7:5   warning  '$' is not defined                  no-undef
+    9:5   warning  '$' is not defined                  no-undef
+   11:5   warning  '$' is not defined                  no-undef
+   12:5   warning  '$' is not defined                  no-undef
+   13:5   warning  'seconds' is not defined            no-undef
+   14:5   warning  'finCnt' is not defined             no-undef
+   18:19  warning  'Raphael' is not defined            no-undef
+  421:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  427:13  warning  'Swal' is not defined               no-undef
+  614:9   warning  'Swal' is not defined               no-undef
+  626:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  626:4   warning  '$' is not defined                  no-undef
+  627:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  627:4   warning  '$' is not defined                  no-undef
+  628:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  629:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  629:4   warning  '$' is not defined                  no-undef
+  630:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  631:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  634:36  warning  '$' is not defined                  no-undef
+  636:3   warning  'seconds' is not defined            no-undef
+  637:3   warning  'updateCounter' is not defined      no-undef
+  638:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  639:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  642:11  warning  '$' is not defined                  no-undef
+  643:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  644:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  644:8   warning  'finCnt' is not defined             no-undef
+  645:4   warning  '$' is not defined                  no-undef
+  646:4   warning  '$' is not defined                  no-undef
+  647:4   warning  '$' is not defined                  no-undef
+  648:4   warning  '$' is not defined                  no-undef
+  650:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  650:5   warning  '$' is not defined                  no-undef
+  653:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  654:9   warning  'Swal' is not defined               no-undef
+  666:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  667:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  667:11  warning  'Swal' is not defined               no-undef
+  683:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distDISinking.js
+    5:10  warning  'Diagram22' is defined but never used                      no-unused-vars
+    6:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+    6:3   warning  '$' is not defined                                         no-undef
+    7:5   warning  '$' is not defined                                         no-undef
+    9:5   warning  '$' is not defined                                         no-undef
+   10:5   warning  '$' is not defined                                         no-undef
+   11:5   warning  'seconds' is not defined                                   no-undef
+   12:5   warning  'diCnt' is not defined                                     no-undef
+   13:5   warning  'finCnt' is not defined                                    no-undef
+   17:19  warning  'Raphael' is not defined                                   no-undef
+  267:7   warning  'isBidirectionalMatch' is assigned a value but never used  no-unused-vars
+  465:14  warning  'getDropZone' is defined but never used                    no-unused-vars
+  604:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  610:13  warning  'Swal' is not defined                                      no-undef
+  669:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  715:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  861:10  warning  'Swal' is not defined                                      no-undef
+  874:9   warning  '$' is not defined                                         no-undef
+  877:9   warning  '$' is not defined                                         no-undef
+  878:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  879:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  882:32  warning  '$' is not defined                                         no-undef
+  884:3   warning  'seconds' is not defined                                   no-undef
+  885:3   warning  'updateCounter' is not defined                             no-undef
+  886:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  887:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  890:11  warning  '$' is not defined                                         no-undef
+  892:12  warning  'finCnt' is not defined                                    no-undef
+  892:25  warning  'diCnt' is not defined                                     no-undef
+  893:4   warning  '$' is not defined                                         no-undef
+  895:4   warning  '$' is not defined                                         no-undef
+  896:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  896:4   warning  '$' is not defined                                         no-undef
+  898:9   warning  '$' is not defined                                         no-undef
+  899:9   warning  '$' is not defined                                         no-undef
+  900:9   warning  '$' is not defined                                         no-undef
+  903:8   warning  '$' is not defined                                         no-undef
+  904:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  904:7   warning  'diCnt' is not defined                                     no-undef
+  905:3   warning  '$' is not defined                                         no-undef
+  906:3   warning  '$' is not defined                                         no-undef
+  910:3   warning  '$' is not defined                                         no-undef
+  911:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  911:7   warning  '$' is not defined                                         no-undef
+  912:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  912:4   warning  '$' is not defined                                         no-undef
+  913:9   warning  '$' is not defined                                         no-undef
+  914:9   warning  '$' is not defined                                         no-undef
+  916:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  918:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  920:10  warning  'Swal' is not defined                                      no-undef
+  933:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  935:10  warning  'Swal' is not defined                                      no-undef
+  953:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distDISourcing.js
+    4:10  warning  'Diagram32' is defined but never used                  no-unused-vars
+    5:5   warning  '$' is not defined                                     no-undef
+    6:5   warning  '$' is not defined                                     no-undef
+    8:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  'seconds' is not defined                               no-undef
+   12:5   warning  'diCnt' is not defined                                 no-undef
+   17:19  warning  'Raphael' is not defined                               no-undef
+  405:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  535:14  warning  'Swal' is not defined                                  no-undef
+  629:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  720:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  734:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  735:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  791:11  warning  'Swal' is not defined                                  no-undef
+  804:9   warning  '$' is not defined                                     no-undef
+  806:10  warning  '$' is not defined                                     no-undef
+  811:33  warning  '$' is not defined                                     no-undef
+  813:3   warning  'seconds' is not defined                               no-undef
+  814:3   warning  'updateCounter' is not defined                         no-undef
+  816:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  817:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  820:11  warning  '$' is not defined                                     no-undef
+  822:12  warning  'finCnt' is not defined                                no-undef
+  822:25  warning  'diCnt' is not defined                                 no-undef
+  823:4   warning  '$' is not defined                                     no-undef
+  825:4   warning  '$' is not defined                                     no-undef
+  826:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  826:4   warning  '$' is not defined                                     no-undef
+  828:9   warning  '$' is not defined                                     no-undef
+  829:9   warning  '$' is not defined                                     no-undef
+  830:9   warning  '$' is not defined                                     no-undef
+  833:9   warning  '$' is not defined                                     no-undef
+  834:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  834:7   warning  'diCnt' is not defined                                 no-undef
+  836:3   warning  '$' is not defined                                     no-undef
+  837:3   warning  '$' is not defined                                     no-undef
+  842:3   warning  '$' is not defined                                     no-undef
+  843:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  843:7   warning  '$' is not defined                                     no-undef
+  844:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  844:4   warning  '$' is not defined                                     no-undef
+  845:9   warning  '$' is not defined                                     no-undef
+  846:9   warning  '$' is not defined                                     no-undef
+  849:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  850:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  852:11  warning  'Swal' is not defined                                  no-undef
+  865:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  868:10  warning  'Swal' is not defined                                  no-undef
+  886:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distDOSinking.js
+    5:11  warning  'Diagram12' is defined but never used    no-unused-vars
+    6:5   warning  '$' is not defined                       no-undef
+    7:5   warning  '$' is not defined                       no-undef
+    9:5   warning  '$' is not defined                       no-undef
+   10:5   warning  '$' is not defined                       no-undef
+   11:5   warning  'seconds' is not defined                 no-undef
+   12:5   warning  'doCnt' is not defined                   no-undef
+   13:5   warning  'finCnt' is not defined                  no-undef
+   17:19  warning  'Raphael' is not defined                 no-undef
+  463:14  warning  'getDropZone' is defined but never used  no-unused-vars
+  604:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  610:13  warning  'Swal' is not defined                    no-undef
+  669:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  717:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  861:9   warning  'Swal' is not defined                    no-undef
+  874:7   warning  '$' is not defined                       no-undef
+  879:33  warning  '$' is not defined                       no-undef
+  881:3   warning  'seconds' is not defined                 no-undef
+  882:3   warning  'updateCounter' is not defined           no-undef
+  883:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  884:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  887:11  warning  '$' is not defined                       no-undef
+  889:10  warning  'finCnt' is not defined                  no-undef
+  889:23  warning  'doCnt' is not defined                   no-undef
+  890:4   warning  '$' is not defined                       no-undef
+  892:4   warning  '$' is not defined                       no-undef
+  893:2   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  893:4   warning  '$' is not defined                       no-undef
+  895:9   warning  '$' is not defined                       no-undef
+  896:9   warning  '$' is not defined                       no-undef
+  897:9   warning  '$' is not defined                       no-undef
+  901:7   warning  '$' is not defined                       no-undef
+  902:8   warning  '$' is not defined                       no-undef
+  904:13  warning  'doCnt' is not defined                   no-undef
+  905:13  warning  '$' is not defined                       no-undef
+  906:13  warning  '$' is not defined                       no-undef
+  908:13  warning  '$' is not defined                       no-undef
+  909:13  warning  '$' is not defined                       no-undef
+  910:13  warning  '$' is not defined                       no-undef
+  915:13  warning  'Swal' is not defined                    no-undef
+  928:13  warning  'Swal' is not defined                    no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distDOSourcing.js
+    5:10  warning  'Diagram42' is defined but never used                  no-unused-vars
+    6:5   warning  '$' is not defined                                     no-undef
+    7:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  '$' is not defined                                     no-undef
+   12:5   warning  'seconds' is not defined                               no-undef
+   13:5   warning  'doCnt' is not defined                                 no-undef
+   17:19  warning  'Raphael' is not defined                               no-undef
+  412:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  556:14  warning  'Swal' is not defined                                  no-undef
+  654:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  735:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  749:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  750:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  806:11  warning  'Swal' is not defined                                  no-undef
+  819:9   warning  '$' is not defined                                     no-undef
+  821:10  warning  '$' is not defined                                     no-undef
+  826:33  warning  '$' is not defined                                     no-undef
+  828:3   warning  'seconds' is not defined                               no-undef
+  829:3   warning  'updateCounter' is not defined                         no-undef
+  830:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  831:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  834:11  warning  '$' is not defined                                     no-undef
+  837:12  warning  'finCnt' is not defined                                no-undef
+  837:25  warning  'doCnt' is not defined                                 no-undef
+  838:4   warning  '$' is not defined                                     no-undef
+  840:4   warning  '$' is not defined                                     no-undef
+  841:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  841:4   warning  '$' is not defined                                     no-undef
+  843:9   warning  '$' is not defined                                     no-undef
+  844:9   warning  '$' is not defined                                     no-undef
+  845:9   warning  '$' is not defined                                     no-undef
+  848:8   warning  '$' is not defined                                     no-undef
+  849:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  849:7   warning  'doCnt' is not defined                                 no-undef
+  851:3   warning  '$' is not defined                                     no-undef
+  852:3   warning  '$' is not defined                                     no-undef
+  854:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  854:4   warning  '$' is not defined                                     no-undef
+  855:9   warning  '$' is not defined                                     no-undef
+  856:9   warning  '$' is not defined                                     no-undef
+  859:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  860:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  862:11  warning  'Swal' is not defined                                  no-undef
+  875:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  878:10  warning  'Swal' is not defined                                  no-undef
+  896:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/distillationHookUp.js
+    2:10  warning  'HookUp32' is defined but never used  no-unused-vars
+    6:2   warning  '$' is not defined                    no-undef
+  301:2   warning  '$' is not defined                    no-undef
+  304:3   warning  'Swal' is not defined                 no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/hookUp2.js
+    2:10  warning  'HookUp2' is defined but never used  no-unused-vars
+    6:2   warning  '$' is not defined                   no-undef
+  191:2   warning  '$' is not defined                   no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/hookUp3.js
+    2:10  warning  'HookUp3' is defined but never used  no-unused-vars
+    6:2   warning  '$' is not defined                   no-undef
+  302:2   warning  '$' is not defined                   no-undef
+  304:3   warning  'Swal' is not defined                no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/result.js
+    2:10  warning  'result' is defined but never used  no-unused-vars
+    6:2   warning  'timerMasterJson' is not defined    no-undef
+    6:24  warning  '$' is not defined                  no-undef
+    7:2   warning  '$' is not defined                  no-undef
+    9:2   warning  '$' is not defined                  no-undef
+   10:2   warning  '$' is not defined                  no-undef
+   12:1   warning  'timerMasterJson' is not defined    no-undef
+   12:24  warning  '$' is not defined                  no-undef
+   14:2   warning  'seconds' is not defined            no-undef
+   15:2   warning  'updateCounter' is not defined      no-undef
+   16:2   warning  '$' is not defined                  no-undef
+   17:2   warning  '$' is not defined                  no-undef
+   18:2   warning  '$' is not defined                  no-undef
+   20:2   warning  'htm' is not defined                no-undef
+   22:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  124:55  warning  'resultJson' is not defined         no-undef
+  140:53  warning  'resultJson' is not defined         no-undef
+  158:50  warning  'resultJson' is not defined         no-undef
+  175:50  warning  'resultJson' is not defined         no-undef
+  192:50  warning  'resultJson' is not defined         no-undef
+  209:50  warning  'resultJson' is not defined         no-undef
+  227:5   warning  '$' is not defined                  no-undef
+  227:25  warning  'htm' is not defined                no-undef
+  229:26  warning  'resultJson' is not defined         no-undef
+  230:26  warning  'resultJson' is not defined         no-undef
+  231:26  warning  'resultJson' is not defined         no-undef
+  232:26  warning  'resultJson' is not defined         no-undef
+  233:26  warning  'resultJson' is not defined         no-undef
+  234:26  warning  'resultJson' is not defined         no-undef
+  237:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  238:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  241:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  241:3   warning  '$' is not defined                  no-undef
+  242:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  244:32  warning  'timerMasterJson' is not defined    no-undef
+  246:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  246:3   warning  '$' is not defined                  no-undef
+  247:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  251:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  251:8   warning  'str' is already defined            no-redeclare
+  252:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  253:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  254:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  255:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  255:8   warning  '$' is not defined                  no-undef
+  256:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  256:8   warning  'str1' is already defined           no-redeclare
+  258:35  warning  'timerMasterJson' is not defined    no-undef
+  260:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  260:13  warning  '$' is not defined                  no-undef
+  265:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  265:8   warning  'str' is already defined            no-redeclare
+  266:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  269:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  269:8   warning  '$' is not defined                  no-undef
+  270:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  270:8   warning  'str1' is already defined           no-redeclare
+  272:34  warning  'timerMasterJson' is not defined    no-undef
+  274:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  274:13  warning  '$' is not defined                  no-undef
+  279:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  279:8   warning  'str' is already defined            no-redeclare
+  280:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  281:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  282:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  283:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  283:8   warning  '$' is not defined                  no-undef
+  284:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  284:8   warning  'str1' is already defined           no-redeclare
+  286:34  warning  'timerMasterJson' is not defined    no-undef
+  288:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  288:13  warning  '$' is not defined                  no-undef
+  292:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  292:8   warning  'str' is already defined            no-redeclare
+  293:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  296:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  296:8   warning  '$' is not defined                  no-undef
+  297:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  297:8   warning  'str1' is already defined           no-redeclare
+  299:35  warning  'timerMasterJson' is not defined    no-undef
+  301:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  301:13  warning  '$' is not defined                  no-undef
+  305:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  305:8   warning  'str' is already defined            no-redeclare
+  306:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  307:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  308:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  309:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  309:8   warning  '$' is not defined                  no-undef
+  310:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  310:8   warning  'str1' is already defined           no-redeclare
+  312:35  warning  'timerMasterJson' is not defined    no-undef
+  314:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  314:13  warning  '$' is not defined                  no-undef
+  318:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  318:8   warning  'str' is already defined            no-redeclare
+  319:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  322:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  322:8   warning  '$' is not defined                  no-undef
+  323:6   warning  'str1' is already defined           no-redeclare
+  325:32  warning  'timerMasterJson' is not defined    no-undef
+  327:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  327:3   warning  '$' is not defined                  no-undef
+  331:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  331:8   warning  'str' is already defined            no-redeclare
+  332:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  333:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  334:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  335:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  335:8   warning  '$' is not defined                  no-undef
+  336:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  336:8   warning  'str1' is already defined           no-redeclare
+  338:35  warning  'timerMasterJson' is not defined    no-undef
+  340:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  340:13  warning  '$' is not defined                  no-undef
+  344:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  344:8   warning  'str' is already defined            no-redeclare
+  345:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  348:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  348:8   warning  '$' is not defined                  no-undef
+  349:6   warning  'str1' is already defined           no-redeclare
+  351:32  warning  'timerMasterJson' is not defined    no-undef
+  353:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  353:3   warning  '$' is not defined                  no-undef
+  357:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  357:8   warning  'str' is already defined            no-redeclare
+  358:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  359:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  360:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  361:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  361:8   warning  '$' is not defined                  no-undef
+  362:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  362:8   warning  'str1' is already defined           no-redeclare
+  364:35  warning  'timerMasterJson' is not defined    no-undef
+  366:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  366:13  warning  '$' is not defined                  no-undef
+  370:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  370:8   warning  'str' is already defined            no-redeclare
+  371:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  374:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  374:8   warning  '$' is not defined                  no-undef
+  375:6   warning  'str1' is already defined           no-redeclare
+  377:32  warning  'timerMasterJson' is not defined    no-undef
+  379:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  379:3   warning  '$' is not defined                  no-undef
+  383:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  383:8   warning  'str' is already defined            no-redeclare
+  384:3   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  385:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  386:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  387:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  387:8   warning  '$' is not defined                  no-undef
+  388:2   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  388:8   warning  'str1' is already defined           no-redeclare
+  390:35  warning  'timerMasterJson' is not defined    no-undef
+  392:7   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  392:13  warning  '$' is not defined                  no-undef
+  396:2   warning  'Highcharts' is not defined         no-undef
+  398:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  399:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  400:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  401:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  402:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  403:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  404:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  406:3   warning  Duplicate key 'credits'             no-dupe-keys
+  407:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  408:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  409:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  410:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  411:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  412:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  424:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  425:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  426:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  427:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  428:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  429:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  430:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  431:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  432:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  433:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  434:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  436:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  437:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  438:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  439:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  440:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  441:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  442:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  443:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  444:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  445:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  447:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  448:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  449:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  450:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  451:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  452:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  453:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  454:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  455:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  456:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  457:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+  458:1   warning  Mixed spaces and tabs               no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayAI.js
+    5:10  warning  'aiSpray' is defined but never used  no-unused-vars
+    6:5   warning  '$' is not defined                   no-undef
+    7:5   warning  '$' is not defined                   no-undef
+    9:5   warning  '$' is not defined                   no-undef
+   11:5   warning  '$' is not defined                   no-undef
+   12:5   warning  '$' is not defined                   no-undef
+   13:5   warning  'seconds' is not defined             no-undef
+   14:5   warning  'finCnt' is not defined              no-undef
+   20:19  warning  'Raphael' is not defined             no-undef
+  416:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  422:13  warning  'Swal' is not defined                no-undef
+  541:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  580:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  594:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  608:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  712:9   warning  'Swal' is not defined                no-undef
+  725:3   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  725:8   warning  'finCnt' is not defined              no-undef
+  726:4   warning  '$' is not defined                   no-undef
+  727:4   warning  '$' is not defined                   no-undef
+  728:4   warning  '$' is not defined                   no-undef
+  729:4   warning  '$' is not defined                   no-undef
+  732:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  732:4   warning  '$' is not defined                   no-undef
+  733:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  733:4   warning  '$' is not defined                   no-undef
+  734:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  734:3   warning  '$' is not defined                   no-undef
+  735:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  735:4   warning  '$' is not defined                   no-undef
+  736:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  737:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  740:36  warning  '$' is not defined                   no-undef
+  742:3   warning  'seconds' is not defined             no-undef
+  743:3   warning  'updateCounter' is not defined       no-undef
+  744:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  745:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  748:11  warning  '$' is not defined                   no-undef
+  751:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  752:9   warning  'Swal' is not defined                no-undef
+  764:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  765:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  765:11  warning  'Swal' is not defined                no-undef
+  781:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayAO.js
+    5:10  warning  'aoSpray' is defined but never used  no-unused-vars
+    6:5   warning  '$' is not defined                   no-undef
+    7:5   warning  '$' is not defined                   no-undef
+    9:5   warning  '$' is not defined                   no-undef
+   11:5   warning  '$' is not defined                   no-undef
+   12:5   warning  '$' is not defined                   no-undef
+   13:5   warning  'seconds' is not defined             no-undef
+   14:5   warning  'finCnt' is not defined              no-undef
+   18:19  warning  'Raphael' is not defined             no-undef
+  421:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  427:13  warning  'Swal' is not defined                no-undef
+  613:9   warning  'Swal' is not defined                no-undef
+  625:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  625:4   warning  '$' is not defined                   no-undef
+  626:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  626:4   warning  '$' is not defined                   no-undef
+  627:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  628:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  628:4   warning  '$' is not defined                   no-undef
+  629:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  630:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  633:36  warning  '$' is not defined                   no-undef
+  635:3   warning  'seconds' is not defined             no-undef
+  636:3   warning  'updateCounter' is not defined       no-undef
+  637:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  638:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  641:11  warning  '$' is not defined                   no-undef
+  642:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  643:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  643:8   warning  'finCnt' is not defined              no-undef
+  644:4   warning  '$' is not defined                   no-undef
+  645:4   warning  '$' is not defined                   no-undef
+  646:4   warning  '$' is not defined                   no-undef
+  647:4   warning  '$' is not defined                   no-undef
+  649:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  650:3   warning  '$' is not defined                   no-undef
+  652:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  653:9   warning  'Swal' is not defined                no-undef
+  665:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  666:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+  666:11  warning  'Swal' is not defined                no-undef
+  682:1   warning  Mixed spaces and tabs                no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayDISinking.js
+    5:10  warning  'Diagram21' is defined but never used                      no-unused-vars
+    6:5   warning  '$' is not defined                                         no-undef
+    7:5   warning  '$' is not defined                                         no-undef
+    9:5   warning  '$' is not defined                                         no-undef
+   10:5   warning  '$' is not defined                                         no-undef
+   11:5   warning  'seconds' is not defined                                   no-undef
+   12:5   warning  'diCnt' is not defined                                     no-undef
+   13:5   warning  'finCnt' is not defined                                    no-undef
+   17:19  warning  'Raphael' is not defined                                   no-undef
+  267:7   warning  'isBidirectionalMatch' is assigned a value but never used  no-unused-vars
+  465:14  warning  'getDropZone' is defined but never used                    no-unused-vars
+  604:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  610:13  warning  'Swal' is not defined                                      no-undef
+  669:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  715:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  861:10  warning  'Swal' is not defined                                      no-undef
+  874:9   warning  '$' is not defined                                         no-undef
+  877:9   warning  '$' is not defined                                         no-undef
+  881:32  warning  '$' is not defined                                         no-undef
+  883:3   warning  'seconds' is not defined                                   no-undef
+  884:3   warning  'updateCounter' is not defined                             no-undef
+  885:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  886:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  889:11  warning  '$' is not defined                                         no-undef
+  891:12  warning  'finCnt' is not defined                                    no-undef
+  891:25  warning  'diCnt' is not defined                                     no-undef
+  892:4   warning  '$' is not defined                                         no-undef
+  894:4   warning  '$' is not defined                                         no-undef
+  895:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  895:4   warning  '$' is not defined                                         no-undef
+  897:9   warning  '$' is not defined                                         no-undef
+  898:9   warning  '$' is not defined                                         no-undef
+  899:9   warning  '$' is not defined                                         no-undef
+  902:8   warning  '$' is not defined                                         no-undef
+  903:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  903:7   warning  'diCnt' is not defined                                     no-undef
+  904:3   warning  '$' is not defined                                         no-undef
+  905:3   warning  '$' is not defined                                         no-undef
+  909:3   warning  '$' is not defined                                         no-undef
+  910:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  910:7   warning  '$' is not defined                                         no-undef
+  911:2   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  911:4   warning  '$' is not defined                                         no-undef
+  912:9   warning  '$' is not defined                                         no-undef
+  913:9   warning  '$' is not defined                                         no-undef
+  915:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  917:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  919:10  warning  'Swal' is not defined                                      no-undef
+  932:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+  934:10  warning  'Swal' is not defined                                      no-undef
+  952:1   warning  Mixed spaces and tabs                                      no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayDISourcing.js
+    4:10  warning  'Diagram31' is defined but never used                  no-unused-vars
+    5:5   warning  '$' is not defined                                     no-undef
+    6:5   warning  '$' is not defined                                     no-undef
+    8:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  'seconds' is not defined                               no-undef
+   12:5   warning  'diCnt' is not defined                                 no-undef
+   17:19  warning  'Raphael' is not defined                               no-undef
+  405:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  535:14  warning  'Swal' is not defined                                  no-undef
+  629:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  720:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  734:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  735:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  791:11  warning  'Swal' is not defined                                  no-undef
+  804:9   warning  '$' is not defined                                     no-undef
+  806:10  warning  '$' is not defined                                     no-undef
+  810:33  warning  '$' is not defined                                     no-undef
+  812:3   warning  'seconds' is not defined                               no-undef
+  813:3   warning  'updateCounter' is not defined                         no-undef
+  814:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  815:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  818:11  warning  '$' is not defined                                     no-undef
+  820:12  warning  'finCnt' is not defined                                no-undef
+  820:25  warning  'diCnt' is not defined                                 no-undef
+  821:4   warning  '$' is not defined                                     no-undef
+  823:4   warning  '$' is not defined                                     no-undef
+  824:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  824:4   warning  '$' is not defined                                     no-undef
+  826:9   warning  '$' is not defined                                     no-undef
+  827:9   warning  '$' is not defined                                     no-undef
+  828:9   warning  '$' is not defined                                     no-undef
+  831:9   warning  '$' is not defined                                     no-undef
+  832:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  832:7   warning  'diCnt' is not defined                                 no-undef
+  834:3   warning  '$' is not defined                                     no-undef
+  835:3   warning  '$' is not defined                                     no-undef
+  840:3   warning  '$' is not defined                                     no-undef
+  841:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  841:7   warning  '$' is not defined                                     no-undef
+  842:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  842:4   warning  '$' is not defined                                     no-undef
+  843:9   warning  '$' is not defined                                     no-undef
+  844:9   warning  '$' is not defined                                     no-undef
+  847:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  848:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  850:11  warning  'Swal' is not defined                                  no-undef
+  863:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  866:10  warning  'Swal' is not defined                                  no-undef
+  884:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayDOSinking.js
+    5:11  warning  'Diagram11' is defined but never used    no-unused-vars
+    6:5   warning  '$' is not defined                       no-undef
+    7:5   warning  '$' is not defined                       no-undef
+    9:5   warning  '$' is not defined                       no-undef
+   10:5   warning  '$' is not defined                       no-undef
+   11:5   warning  'seconds' is not defined                 no-undef
+   12:5   warning  'doCnt' is not defined                   no-undef
+   13:5   warning  'finCnt' is not defined                  no-undef
+   17:19  warning  'Raphael' is not defined                 no-undef
+  462:14  warning  'getDropZone' is defined but never used  no-unused-vars
+  603:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  609:13  warning  'Swal' is not defined                    no-undef
+  668:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  716:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  860:9   warning  'Swal' is not defined                    no-undef
+  873:7   warning  '$' is not defined                       no-undef
+  878:33  warning  '$' is not defined                       no-undef
+  880:3   warning  'seconds' is not defined                 no-undef
+  881:3   warning  'updateCounter' is not defined           no-undef
+  882:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  883:1   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  886:11  warning  '$' is not defined                       no-undef
+  888:10  warning  'finCnt' is not defined                  no-undef
+  888:23  warning  'doCnt' is not defined                   no-undef
+  889:4   warning  '$' is not defined                       no-undef
+  891:4   warning  '$' is not defined                       no-undef
+  892:2   warning  Mixed spaces and tabs                    no-mixed-spaces-and-tabs
+  892:4   warning  '$' is not defined                       no-undef
+  894:9   warning  '$' is not defined                       no-undef
+  895:9   warning  '$' is not defined                       no-undef
+  896:9   warning  '$' is not defined                       no-undef
+  900:7   warning  '$' is not defined                       no-undef
+  901:8   warning  '$' is not defined                       no-undef
+  903:13  warning  'doCnt' is not defined                   no-undef
+  904:13  warning  '$' is not defined                       no-undef
+  905:13  warning  '$' is not defined                       no-undef
+  907:13  warning  '$' is not defined                       no-undef
+  908:13  warning  '$' is not defined                       no-undef
+  909:13  warning  '$' is not defined                       no-undef
+  914:13  warning  'Swal' is not defined                    no-undef
+  927:13  warning  'Swal' is not defined                    no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayDOSourcing.js
+    5:10  warning  'Diagram41' is defined but never used                  no-unused-vars
+    6:5   warning  '$' is not defined                                     no-undef
+    7:5   warning  '$' is not defined                                     no-undef
+    9:5   warning  '$' is not defined                                     no-undef
+   10:5   warning  '$' is not defined                                     no-undef
+   11:5   warning  '$' is not defined                                     no-undef
+   12:5   warning  'seconds' is not defined                               no-undef
+   13:5   warning  'doCnt' is not defined                                 no-undef
+   17:19  warning  'Raphael' is not defined                               no-undef
+  408:14  warning  'getDropZone' is defined but never used                no-unused-vars
+  552:14  warning  'Swal' is not defined                                  no-undef
+  650:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  731:15  warning  'zoneComponentIds' is assigned a value but never used  no-unused-vars
+  745:11  warning  'fromComponentId' is assigned a value but never used   no-unused-vars
+  746:11  warning  'toComponentId' is assigned a value but never used     no-unused-vars
+  802:11  warning  'Swal' is not defined                                  no-undef
+  815:9   warning  '$' is not defined                                     no-undef
+  817:10  warning  '$' is not defined                                     no-undef
+  821:33  warning  '$' is not defined                                     no-undef
+  823:3   warning  'seconds' is not defined                               no-undef
+  824:3   warning  'updateCounter' is not defined                         no-undef
+  825:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  826:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  829:11  warning  '$' is not defined                                     no-undef
+  832:12  warning  'finCnt' is not defined                                no-undef
+  832:25  warning  'doCnt' is not defined                                 no-undef
+  833:4   warning  '$' is not defined                                     no-undef
+  835:4   warning  '$' is not defined                                     no-undef
+  836:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  836:4   warning  '$' is not defined                                     no-undef
+  838:9   warning  '$' is not defined                                     no-undef
+  839:9   warning  '$' is not defined                                     no-undef
+  840:9   warning  '$' is not defined                                     no-undef
+  843:8   warning  '$' is not defined                                     no-undef
+  844:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  844:7   warning  'doCnt' is not defined                                 no-undef
+  846:3   warning  '$' is not defined                                     no-undef
+  847:3   warning  '$' is not defined                                     no-undef
+  849:2   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  849:4   warning  '$' is not defined                                     no-undef
+  850:9   warning  '$' is not defined                                     no-undef
+  851:9   warning  '$' is not defined                                     no-undef
+  854:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  855:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  857:11  warning  'Swal' is not defined                                  no-undef
+  870:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+  873:10  warning  'Swal' is not defined                                  no-undef
+  891:1   warning  Mixed spaces and tabs                                  no-mixed-spaces-and-tabs
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/sprayDryerHookUp.js
+    2:10  warning  'HookUp31' is defined but never used  no-unused-vars
+    6:2   warning  '$' is not defined                    no-undef
+  304:2   warning  '$' is not defined                    no-undef
+  306:3   warning  'Swal' is not defined                 no-undef
+
+/home/runner/work/exp-loop-wiring-coep/exp-loop-wiring-coep/experiment/simulation/src/timer.js
+   6:1  warning  '$' is not defined  no-undef
+  21:4  warning  '$' is not defined  no-undef
+
+✖ 1259 problems (1 error, 1258 warnings)
+

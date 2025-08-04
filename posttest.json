@@ -1,0 +1,86 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the term for the process of assigning a unique address to each device in a PLC-based system?",
+      "answers": {
+        "a": "Tagging",
+        "b": "Addressing",
+        "c": "Wiring",
+        "d": "Programming"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "What is the purpose of a terminator in a PLC-based system?",
+      "answers": {
+        "a": "To connect devices to the PLC",
+        "b": "To disconnect devices from the PLC",
+        "c": "To terminate the signal transmission",
+        "d": "To amplify the signal strength"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "What is the term for the process of checking the loop wiring diagram for errors and inconsistencies?",
+      "answers": {
+        "a": "Verification",
+        "b": "Validation",
+        "c": "Testing",
+        "d": "Debugging"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "What is the advantage of using a loop wiring diagram in an automation project?",
+      "answers": {
+        "a": "It reduces the complexity of the system",
+        "b": "It increases the cost of the project",
+        "c": "It improves the reliability and maintainability of the system",
+        "d": "It decreases the efficiency of the system"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "Who is typically responsible for reviewing and approving the loop wiring diagram in an automation project? ",
+      "answers": {
+        "a": "PLC programmer",
+        "b": "Electrical engineer",
+        "c": "Project manager",
+        "d": "Quality assurance engineer"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+  
+  
+  {
+      "question": "What is the final step in the development of a loop wiring diagram?",
+      "answers": {
+        "a": "Verification",
+        "b": "Validation",
+        "c": "Testing",
+        "d": "Documentation"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  
+  
+  ]
+}

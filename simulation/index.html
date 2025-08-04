@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Wiring diagram  </title>
+<meta charset="ISO-8859-1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" > -->
+    <link rel="stylesheet" href=" https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+   	
+   	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/result.css">
+	<link rel="stylesheet" href="css/mainPage.css">
+	
+<style>
+
+   @keyframes blinker { 
+  50% { 
+     opacity: 0; 
+  }  } 
+
+ .blinking { 
+   animation: blinker 1s step-start infinite;  } 
+             .table-container { 
+            padding: 20px; 
+        } 
+        
+        #container1 {
+    border: 2px solid black;
+}
+
+
+.col-6 {  /* Fixed incorrect class names (previously .sm-4, .md-4, .lg-4) */
+/*     object-fit: contain; */
+/*     height: 60px; */
+          position: none;  
+     width:0%; 
+     min-height: 0px; 
+     padding-right: 0px; 
+     padding-left: 0px;
+     
+}
+
+.component {
+    text-align: center;
+    cursor: grab;
+    user-select: none;
+/*     height: auto; /* Maintains aspect ratio */ 
+/*      MAX-WIDTH: 15PX; /* ENSURES IT DOESN'T GET TOO LARGE */   
+/*      MIN-WIDTH: 10PX; */
+     width: auto; /* Makes the image responsive */ 	 
+     margin:2px;
+   
+}
+
+.component img {
+
+     width:50px;
+    object-fit: contain;
+    pointer-events: auto; /* Fixed pointer-events property */
+}
+
+.component img:hover {
+    transform: scale(1.1); /* Slightly enlarge image */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 1); /* Adjusted shadow effect */
+}
+
+#diagram {
+    flex-grow: 1;
+    width:95%;
+    position: relative;
+    height: 95vh;
+}
+
+#startBtn{
+	align-items: center;
+}
+
+.col-3,.col-4,.col-6{
+	border:1px solid grey;
+}
+
+#table{
+	margin-bottom: 5%;
+}
+#coepLogo,#vlabLogo{
+ pointer-events: none;
+}
+@font-face{
+ font-family:'digital-clock-font';
+ src: url('font/digital-7.ttf');
+}
+.lblApproval{
+border-bottom: 1px solid #000000;
+padding: 5% 50%;
+}
+
+.txtApproval{
+	border: none;
+    border-bottom: 1px solid black;
+}
+h5{
+	font-weight: 600;
+    font-size: 18px;
+    color:cornflowerblue;
+}
+  </style>
+</head>
+<body>
+<header>
+		<img class="COEPLogo" src='images/COEPlogo.png' />
+		<img class="VlabLogo" src='images/vlablogo.jpg' />
+		<span id="colgName">COEP TECHNOLOGICAL UNIVERSITY PUNE</span>			
+</header>
+
+<div  class="row" > 
+<div class="col-3" style="display:flex; border:none;">
+ <label class="row" style="margin-top:10px; margin-left:5px; width:50%;" id="plantSelectLabel">
+	  Select Plant:
+	</label>
+	<select name="plants" id="plantSelect" style="margin-top:7px; margin-bottom:7px; width:50%">
+	  <option value="0">--Select--</option>
+	  <option value="1">Boiler</option>
+	  <option value="2">Spray Dryer</option>
+	   <option value="3">Distillation</option>
+	</select>
+</div>
+<div class="col-3" style="display:flex; border:none;">
+  <label class="row" style="margin-top:10px;margin-left:5px;width:60%;" id = "hookUpSelectLabel" hidden>Select the Appropriate:</label>
+  <select name="cars" id="hookUpSelect" style="margin-top:7px; margin-bottom:7px; width:40%;"  hidden>
+     <option value="0" >--Select--</option>
+    <option value="DI" >DI</option>
+    <option value="DO">DO</option>
+    <option value="AI">AI</option>
+    <option value="AO">AO</option>
+  </select>
+    </div>
+	<div class="col-3" style="display:flex; border:none;">
+    <label class="row" style="margin-top:10px;margin-left:5px;width:50%" id = "subhookUpSelectLabel" hidden>Select:</label> 
+     <select name="cars" id="subhookUpSelect" style="margin-top:7px; margin-bottom:7px; width:50%" hidden>
+     <option value="0" >--Select--</option>
+    <option value="Sinking" >Sinking</option>
+    <option value="Sourcing">Sourcing</option>
+   
+  </select>
+  
+      <label class="row" style="margin-top:10px;margin-left:5px;width:50%" id = "subhookUpSelectLabel1" hidden>Select:</label> 
+     <select name="cars" id="subhookUpSelect1" style="margin-top:7px; margin-bottom:7px; width:50%" hidden>
+     <option value="0" >--Select--</option>
+    <option value="Sinking" >Sinking</option>
+    <option value="Sourcing">Sourcing</option>
+   
+  </select>
+  </div>
+     
+	 <div class="col-3" style=" border:none;">
+
+		 <h5 id="counter" class=" btn1 timerStyle" hidden>00:00:00</h5>
+		   <button type="button" class="btn btn-danger btn1 button1"  id="report" hidden>Download report</button> 
+	       <button id="startBtn" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="startBtn1" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="startBtn2" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="startBtn3" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="startBtnAI" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="startBtnAO" class="btn btn-primary m-2 btn1 button1" hidden>VALIDATE</button>
+           <button id="result" class="btn btn-primary m-2 btn1 button1" hidden>RESULT</button>
+		   </div> 
+</div>
+
+
+<div class="container-fluid" style="margin-top:5px;" id="main-div">
+	<div  class="col-sm-12 text-end" id="btnDiv" > 
+      
+	</div>
+ <div class="row justify-content-center" style="margin-bottom:0px;">
+            <div class="col-md-10 instruction-box">
+            <h3 class="text-center" style="color: cornflowerblue;margin-top:10px; font-weight: 900; font-family: emoji;"> WIRING DIAGRAM </h3>              
+            </div>
+        </div>
+ <div class="row justify-content-center" style="margin-bottom:20px;">
+            <div class="col-md-10 instruction-box">
+                <span class="fw-bold" style="font-family: emoji;
+    font-size: 20px;
+    word-spacing: 1px;"> "You are working in a contractor's firm as an 'Instrumentation & Control Engineer'.<br>
+As a part of post Engineering documentation, you are required to create wiring diagram for a PLC to be used as control system component. The PLC has DI, DO, AI, and AO modules and specific types of inputs and outputs as per the plant. Prepare the wiring diagram for each module."</span>
+            </div>
+        </div>
+           <div class="row justify-content-center">
+             <div claas="col-md-4">
+                <div class="card p-3" style="margin-bottom: 30px;">
+                    <h5 class="text-center">BOILER</h5>
+                   <img src="images/boilerheatExchanger.jpg" class="img-fluid rounded" style="height: 500px; width: 400px;">                  
+<!--                     <button class="btn btn-success " id="boiler" style="float:right;margin: 10px;background-color:teal;" >CLICK HERE TO START</button> -->
+                </div>
+            </div>
+            <div claas="col-md-4">
+                <div class="card p-3" style="margin-bottom: 30px;">
+                    <h5 class="text-center">DISTILLATION</h5>
+                  <img src="images/distillation1.png" class="img-fluid rounded" style="height: 500px; width: 300px;">            
+<!--                     <button class="btn btn-success " id="boiler" style="float:right;margin: 10px;background-color:teal;" >CLICK HERE TO START</button> -->
+                </div>
+            </div>
+             <div claas="col-md-4">
+                <div class="card p-3" style="margin-bottom: 30px;">
+                    <h5 class="text-center">SPRAY DRYER</h5>
+                  <img src="images/Spray_Dryer.png" class="img-fluid rounded" style="height: 500px; width: 400px;">                
+<!--                     <button class="btn btn-success " id="boiler" style="float:right;margin: 10px;background-color:teal;" >CLICK HERE TO START</button> -->
+                </div>
+            </div>
+            
+          </div>
+        
+        
+</div>
+
+ 
+
+
+	
+	<footer>
+Copyrights &copy; COEP - Virtual Lab
+</footer>
+<script src="../assets/js/iframeResize.js"></script>
+        
+        </body>
+
+<!-- https://code.jquery.com/jquery-3.5.1.js -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="lib/jquery.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+<script type="text/javascript" src="lib/raphael.js"></script>
+<script type="text/javascript" src="lib/raphael.min.js"></script>
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+  <script type="text/javascript" src="src/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+<script type="text/javascript" src="src/hookUp3.js"></script>
+<script type="text/javascript" src="src/sprayDryerHookUp.js"></script>
+<script type="text/javascript" src="src/demo.js"></script>
+
+<script type="text/javascript" src="src/sprayDISinking.js"></script>
+<script type="text/javascript" src="src/sprayDISourcing.js"></script>
+
+<script type="text/javascript" src="src/sprayDOSinking.js"></script>
+<script type="text/javascript" src="src/sprayDOSourcing.js"></script>
+<script type="text/javascript" src="src/sprayAI.js"></script>
+<script type="text/javascript" src="src/sprayAO.js"></script>
+
+<script type="text/javascript" src="src/demo1.js"></script>
+
+<!-- <script type="text/javascript" src="src/hookUp2.js"></script> -->
+<script type="text/javascript" src="src/demo2.js"></script>
+
+
+<script type="text/javascript" src="src/demo3.js"></script>
+<script type="text/javascript" src="src/demo.js"></script>
+
+<script type="text/javascript" src="src/AIBoiler.js"></script>
+<script type="text/javascript" src="src/AOBoiler.js"></script>
+
+<script type="text/javascript" src="src/distillationHookUp.js"></script>
+<script type="text/javascript" src="src/distDISinking.js"></script>
+<script type="text/javascript" src="src/distDISourcing.js"></script>
+
+<script type="text/javascript" src="src/distDOSinking.js"></script>
+<script type="text/javascript" src="src/distDOSourcing.js"></script>
+<script type="text/javascript" src="src/AIDist.js"></script>
+<script type="text/javascript" src="src/distAO.js"></script>
+	
+<script type="text/javascript" src="src/result.js"></script>
+<script src="src/timer.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script>
+
+   var diCnt = 0;
+   var doCnt = 0;
+   var finCnt = 0;
+   
+   var plantCnt = 0;
+   
+   $(document).on("change", "#plantSelect", function() {
+	   $("#hookUpSelect").prop("hidden",false);
+	   $("#hookUpSelectLabel").prop("hidden",false);
+	   
+	   console.log($("#plantSelect").val());
+	   
+	   if($("#plantSelect").val()==1){
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
+		   
+		   boiler();
+	   }
+	   if($("#plantSelect").val()==2){
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
+		   
+		   sprayDryer();
+		
+	   }
+	   if($("#plantSelect").val()==3){
+		   $("#plantSelectLabel").prop("disabled",true);
+		   $("#plantSelect").prop("disabled",true);
+		   
+		   distillation();
+		
+	   }
+	   
+   });
+   
+   var compSel = 0;
+   
+   function distillation(){
+	   
+	   $(document).on("change", "#hookUpSelect", function() {  
+		    let selection = $(this).val();  // Correctly retrieve selected value
+		    console.log("selection : "+selection);
+		    
+		    if(selection !== "Select") {
+		        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+		    }
+		    
+		    if (selection === "DI") {  
+		        $("#subhookUpSelectLabel").prop("hidden",false);
+		        $("#subhookUpSelect").prop("hidden",false);
+		        $("#hookUpSelect").prop("disabled",true);
+		        compSel=1;
+		    }else if(selection === "DO"){
+		    	$("#subhookUpSelectLabel1").prop("hidden",false);
+		        $("#subhookUpSelect1").prop("hidden",false);
+		        $("#hookUpSelect").prop("disabled",true);
+		        compSel = 2;
+		    	
+			}else if(selection === "AI"){
+				
+				HookUp32(); 
+				aiDist();
+				
+			}else if(selection === "AO"){
+				HookUp32(); 	
+				aoDist();
+			  
+			}
+		   });  
+		   
+		 
+		   $(document).on("change", "#subhookUpSelect", function() {
+			   
+			
+			   
+			   let selection = $(this).val();  // Correctly retrieve selected value
+			    console.log("selection : "+selection);
+			    
+			    if(selection !== "Select") {
+			        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+			    }
+			   
+			    
+			    if (selection === "Sinking") {  
+			    	$("#subhookUpSelect").prop("disabled",true);
+			    	HookUp32(); //distillationHookUp
+			    	Diagram22(); // sprayDISinking
+			    }else if(selection === "Sourcing"){
+			    	$("#subhookUpSelect").prop("disabled",true);
+			    	HookUp32();  //sprayDryerHookUp
+			    	Diagram32(); // sprayDISourcing
+				}
+			   
+		   });
+		   
+		   
+		$(document).on("change", "#subhookUpSelect1", function() {
+			   
+			
+			   
+			   let selection = $(this).val();  // Correctly retrieve selected value
+			    console.log("selection : "+selection);
+			    
+			    if(selection !== "Select") {
+			        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+			    }
+			   
+			   
+			    	
+			    	if (selection === "Sinking") {  
+				    	$("#subhookUpSelect1").prop("disabled",true);
+				    	HookUp32(); 
+				    	Diagram12();
+				    }else if(selection === "Sourcing"){
+		 		    	$("#subhookUpSelect1").prop("disabled",true);
+				    	HookUp32();
+				    	Diagram42();
+					
+			    	
+			    }
+		   });
+	   
+  }   
+	   
+   
+   
+   
+   function sprayDryer(){
+	   
+	   $(document).on("change", "#hookUpSelect", function() {  
+		    let selection = $(this).val();  // Correctly retrieve selected value
+		    console.log("selection : "+selection);
+		    
+		    if(selection !== "Select") {
+		        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+		    }
+		    
+		    if (selection === "DI") {  
+		        $("#subhookUpSelectLabel").prop("hidden",false);
+		        $("#subhookUpSelect").prop("hidden",false);
+		        $("#hookUpSelect").prop("disabled",true);
+		        compSel=1;
+		    }else if(selection === "DO"){
+		    	$("#subhookUpSelectLabel1").prop("hidden",false);
+		        $("#subhookUpSelect1").prop("hidden",false);
+		        $("#hookUpSelect").prop("disabled",true);
+		        compSel = 2;
+		    	
+			}else if(selection === "AI"){
+				
+				HookUp31(); 
+				aiSpray();
+				
+			}else if(selection === "AO"){
+				HookUp31(); 	
+				aoSpray();
+			  
+			}
+		   });  
+		   
+		 
+		   $(document).on("change", "#subhookUpSelect", function() {
+			   
+			
+			   
+			   let selection = $(this).val();  // Correctly retrieve selected value
+			    console.log("selection : "+selection);
+			    
+			    if(selection !== "Select") {
+			        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+			    }
+			   
+			    
+			    if (selection === "Sinking") {  
+			    	$("#subhookUpSelect").prop("disabled",true);
+			    	HookUp31(); //sprayDryerHookUp
+			    	Diagram21(); // sprayDISinking
+			    }else if(selection === "Sourcing"){
+			    	$("#subhookUpSelect").prop("disabled",true);
+			    	HookUp31();  //sprayDryerHookUp
+			    	Diagram31(); // sprayDISourcing
+				}
+			   
+		   });
+		   
+		   
+		$(document).on("change", "#subhookUpSelect1", function() {
+			   
+			
+			   
+			   let selection = $(this).val();  // Correctly retrieve selected value
+			    console.log("selection : "+selection);
+			    
+			    if(selection !== "Select") {
+			        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+			    }
+			   
+			   
+			    	
+			    	if (selection === "Sinking") {  
+				    	$("#subhookUpSelect1").prop("disabled",true);
+				    	HookUp31(); 
+				    	Diagram11();
+				    }else if(selection === "Sourcing"){
+		 		    	$("#subhookUpSelect1").prop("disabled",true);
+				    	HookUp31();
+				    	Diagram41();
+					
+			    	
+			    }
+		   });
+	   
+   }
+   
+   function boiler(){
+   
+   $(document).on("change", "#hookUpSelect", function() {  
+    let selection = $(this).val();  // Correctly retrieve selected value
+    console.log("selection : "+selection);
+    
+    if(selection !== "Select") {
+        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+    }
+    
+    if (selection === "DI") {  
+        $("#subhookUpSelectLabel").prop("hidden",false);
+        $("#subhookUpSelect").prop("hidden",false);
+        $("#hookUpSelect").prop("disabled",true);
+        compSel=1;
+    }else if(selection === "DO"){
+    	$("#subhookUpSelectLabel1").prop("hidden",false);
+        $("#subhookUpSelect1").prop("hidden",false);
+        $("#hookUpSelect").prop("disabled",true);
+        compSel = 2;
+    	
+	}else if(selection === "AI"){
+		
+		HookUp3(); 
+		aiBoiler();
+		
+	}else if(selection === "AO"){
+		HookUp3(); 	
+		aoBoiler();
+	  
+	}
+   });  
+   
+ 
+   $(document).on("change", "#subhookUpSelect", function() {
+	   
+	
+	   
+	   let selection = $(this).val();  // Correctly retrieve selected value
+	    console.log("selection : "+selection);
+	    
+	    if(selection !== "Select") {
+	        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+	    }
+	   
+	    if(compSel==1){
+	    if (selection === "Sinking") {  
+	    	$("#subhookUpSelect").prop("disabled",true);
+	    	HookUp3();
+	    	Diagram2();
+	    }else if(selection === "Sourcing"){
+	    	$("#subhookUpSelect").prop("disabled",true);
+	    	HookUp3();
+	    	Diagram3();
+		}
+	    }else if(compSel==2){
+	    	
+	    	if (selection === "Sinking") {  
+		    	$("#subhookUpSelect1").prop("disabled",true);
+		    	HookUp3(); 
+		    	Diagram1();
+		    }else if(selection === "Sourcing"){
+		    	$("#subhookUpSelect1").prop("disabled",true);
+		    	HookUp3();
+		    	Diagram4();
+			}
+	    	
+	    }
+   });
+   
+   
+$(document).on("change", "#subhookUpSelect1", function() {
+	   
+	
+	   
+	   let selection = $(this).val();  // Correctly retrieve selected value
+	    console.log("selection : "+selection);
+	    
+	    if(selection !== "Select") {
+	        $(this).find('option[value="' + selection + '"]').prop('disabled', true);
+	    }
+	   
+	    if(compSel==1){
+	    if (selection === "Sinking") {  
+	    	$("#subhookUpSelect1").prop("disabled",true);
+	    	HookUp3();
+	    	Diagram2();
+	    }else if(selection === "Sourcing"){
+	    	$("#subhookUpSelect1").prop("disabled",true);
+	    	HookUp3();
+	    	Diagram3();
+		}
+	    }else if(compSel==2){
+	    	
+	    	if (selection === "Sinking") {  
+		    	$("#subhookUpSelect1").prop("disabled",true);
+		    	HookUp3(); 
+		    	Diagram1();
+		    }else if(selection === "Sourcing"){
+		    	$("#subhookUpSelect1").prop("disabled",true);
+		    	HookUp3();
+		    	Diagram4();
+			}
+	    	
+	    }
+   });
+  
+   }
+
+    $("#result").click(function () {
+	   result()
+   });
+
+//    $("#boiler").click(function () {
+	   
+	  
+//    });
+
+//     const diagram = document.getElementById("diagram");
+
+//   if (diagram && !diagram.dataset.dropBound) {
+//     diagram.dataset.dropBound = "true";
+
+//     diagram.addEventListener("dragover", (e) => e.preventDefault());
+
+//     diagram.addEventListener("drop", (e) => {
+//       console.log(" dropped");
+
+//       e.preventDefault();
+
+//       // Your existing drop logic here...
+//       const imgSrc = e.dataTransfer.getData("imgSrc");
+//       const draggedType = e.dataTransfer.getData("type");
+//       const dropPoint = getSVGCoordinates(e);
+
+//       const validDrop = dropZones.find(zone => {
+//         const xCheck = Math.abs(dropPoint.x - (zone.x + zone.width / 2)) < (zone.width / 2 + 30);
+//         const yCheck = Math.abs(dropPoint.y - (zone.y + zone.height / 2)) < (zone.height / 2 + 30);
+//         return xCheck && yCheck && !zone.occupied;
+//       });
+
+//       if (validDrop) {
+//         const amCountBefore = placedElements.filter(el =>
+//           el?.data && el.data("type") === "LSH" && el.node?.getAttribute("href")?.toLowerCase().includes("am.png")
+//         ).length;
+
+//         if (imgSrc.toLowerCase().includes("am.png") && amCountBefore >= 1) {
+//           alert(" Only one AM.png component is allowed.");
+//           return;
+//         }
+
+//         const uniqueId = `comp-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+//         let imgElement = paper.image(imgSrc, validDrop.x, validDrop.y, validDrop.width, validDrop.height).attr({ cursor: "pointer" });
+
+//         imgElement.data("zoneId", validDrop.zoneId);
+//         imgElement.data("type", draggedType);
+//         imgElement.data("componentId", uniqueId);
+
+//         const portOffsets = portConfigurations[draggedType] || [];
+//         const ports = portOffsets.map(offset => {
+//           const cx = validDrop.x + offset.dx;
+//           const cy = validDrop.y + offset.dy;
+//           const port = paper.circle(cx, cy, 3).attr({ fill: "#3498db", stroke: "#2c3e50", cursor: "pointer" });
+//           port.data("parent", imgElement);
+//           port.data("portName", offset.name);
+//           port.data("componentId", uniqueId);
+//           port.data("type", draggedType);
+//           port.data("zoneId", validDrop.zoneId);
+//           port.click(() => handlePortClick(port));
+//           allPorts.push(port);
+//           return port;
+//         });
+
+//         imgElement.node.addEventListener("contextmenu", (e) => {
+//           e.preventDefault();
+//           showContextMenu(e.clientX, e.clientY, () => {
+//             ports.forEach(p => p.remove());
+//             removeConnectionsByComponentId(uniqueId);
+//             imgElement.remove();
+//             validDrop.occupied = false;
+//             placedElements = placedElements.filter(el => el !== imgElement);
+//           });
+//         });
+
+//         const i1 = addStaticPort(paper, dropPoint.x + 201.9, dropPoint.y + 27, "top", "static-11", "I1P", "I1P2");
+//         const i2 = addStaticPort(paper, dropPoint.x + 202.5, dropPoint.y + 87.3, "top", "static-12", "I2P", "I2P2");
+//         const i3 = addStaticPort(paper, dropPoint.x + 201.9, dropPoint.y + 147, "top", "static-14", "I3P", "I3P2");
+
+//         placedElements.push(imgElement, i1, i2, i3);
+//         validDrop.occupied = true;
+//       }
+//     });
+//   }
+
+   
+   
+   
+
+</script>
+<script>
+$("#coepLogo").click(function(evt) {
+	
+	 $('#coepLogo').off('click');
+});
+
+
+$('#report').on('click', function() {
+	
+	tmp = $("#nameInput").val();
+	if(tmp==""){
+		alert("Enter name");
+	}
+	else{
+		$("#nameInput").prop("disabled",true);
+		$("#nameInput").css("background-color","#fff");
+			$('#report').prop("hidden",true);
+		    html2canvas(document.querySelector("#main-div")).then(canvas => {
+		        // Append the screenshot canvas to the body
+		        document.body.appendChild(canvas);
+		        $("canvas").css("display","none");
+		        // Optionally save the screenshot as an image
+		        var link = document.createElement('a');
+		        link.download = 'Wiring_diag_report.png';
+		        link.href = canvas.toDataURL();
+		        link.click();
+		    });
+		
+}
+});
+
+
+</script>
+
+</html>
