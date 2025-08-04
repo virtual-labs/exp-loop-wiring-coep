@@ -1,3 +1,5 @@
+## Theory
+
 In an automation project loop wiring diagram plays important role. The details about importance of loop wiring diagrams, the procedure to follow, and the standards used for preparing one for an automation project is detailed as below:
 
 ##### Importance of Loop Wiring Diagrams
